@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="red">#FF4081</color><!--红色 -->
+    <color name="blue">#3F51B5</color><!--蓝色 -->
+    <color name="transparent">#FFFFFF</color> <!--透明 -->
+    <color name="content">#0099FF</color><!--内容的颜色 -->
+    <color name="timeWakeup">#FF0033</color><!--提醒时间的颜色 -->
+    <color name="delete">#FFFF99</color><!--删除按钮的颜色 -->
+    <color name="object">#99CC99</color><!--对象的颜色 -->
+    <color name="add">#FF0033</color><!--增加日程按钮的颜色 -->
+    <color name="manage">#CCCC33</color><!--管理日程按钮的颜色 -->
+    <color name="save">#66CC66</color><!--保存按钮的颜色 -->
+
+    <color name="test">#FF0000</color><!--颜色 -->
+    <color name="colorNone">#ffff</color>
+    <color name="background">#FF0000</color><!--颜色 -->
+    <color name="divider">#d4d4d4</color><!--颜色 -->
+</resources>

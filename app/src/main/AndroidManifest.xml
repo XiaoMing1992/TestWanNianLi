@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.testwannianli">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".myApp.MainActivity"
+            android:label="@string/app_name">
+            <!-- android:theme="@style/AppTheme.NoActionBar" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".recorder.RecordingActivity"
+            android:label="@string/recording_activity" />
+        <activity
+            android:name=".dayManager.AddDayManagerActivity"
+            android:label="@string/add_day_activity" />
+        <activity
+            android:name=".dayManager.ManageAllDaysActivity"
+            android:label="@string/manage_day_activity" />
+        <activity
+            android:name=".recorder.PlayRecordActivity"
+            android:label="@string/play_record_activity" />
+        <activity
+            android:name=".dayManager.MenuActivity"
+            android:label="@string/day_menu_activity" />
+        <activity
+            android:name=".dayManager.ManageAllDaysItemActivity"
+            android:label="@string/view_day_activity" />
+
+        <service
+            android:name=".service.DayManageService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".broadcast.LaunchReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".dayManager.AlarmActivity"
+            android:theme="@style/MyDialogStyle" />
+        <activity android:name=".dayManager.SoundActivity"
+            android:theme="@style/MyDialogStyle"
+            />
+        <activity
+            android:name=".userdefinedwidget.DatePickerActivity"
+            android:theme="@style/MyDialogStyle" />
+        <activity android:name=".userdefinedwidget.Main2Activity"></activity>
+    </application>
+
+</manifest>

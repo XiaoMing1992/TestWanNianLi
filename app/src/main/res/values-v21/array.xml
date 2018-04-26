@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="year_array">
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+    </string-array>
+    <string-array name="arrcontent">
+        <item>保存编辑</item>
+        <item>取消编辑</item>
+    </string-array>
+</resources>

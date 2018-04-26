@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">万年历</string>
+    <string name="app_name_recorder">Recorder</string>
+
+    <string name="hello">您好，请大声朗读</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="go_back_today">返回今天</string>
+    <string name="startRecord">开始录音</string>
+    <string name="stopRecord">结束录音</string>
+    <string name="startPlay">开始播放</string>
+    <string name="stopPlay">结束播放</string>
+
+    <string name="tip">请说话</string>
+    <string name="cancel">取消</string>
+    <string name="over">说完了</string>
+
+    <string name="time">提醒时间</string>
+    <string name="set_date">设置日期</string>
+    <string name="set_time">设置时间</string>
+
+    <string name="theme">主题</string>
+    <string name="content">内容</string>
+    <string name="to_user">给谁</string>
+    <string name="to_user_tip">请输入姓名或者昵称</string>
+
+    <string name="wenzi">文字输入</string>
+    <string name="wenzi_content">输入内容</string>
+    <string name="luyin">录音输入</string>
+    <string name="save">保存</string>
+    <string name="new_act_date_time_picker_title">设置提醒时间</string>
+
+    <string name="play_record_pasue">暂停</string>
+    <string name="play_record_over">结束</string>
+    <string name="play_record_again">再放一遍</string>
+    <string name="play_tip">正在播放...</string>
+
+    <string name="day_item_time">时间</string>
+    <string name="day_item_object">对象</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="user_name">未知对象</string>
+
+    <string name="add">增加日程</string>
+    <string name="manage">管理日程</string>
+    <string name="day_menu_activity">日程菜单</string>
+    <string name="add_day_activity">增加日程</string>
+    <string name="manage_day_activity">管理日程</string>
+    <string name="view_day_activity">查看日程</string>
+    <string name="play_record_activity">播放录音</string>
+    <string name="recording_activity">正在录音</string>
+
+    <string name="first_page">首页</string>
+    <string name="up_page">上一页</string>
+    <string name="down_page">下一页</string>
+    <string name="last_page">尾页</string>
+
+    <!-- created by wqm -->
+    <string name="tips">Tips</string>
+    <string name="hi">Hello World!</string>
+    <string name="exit">退出</string>
+    <string name="alarmDialog">alarmDialog</string>
+    <string name="play">播放</string>
+    <string name="soundContent">正在为您播放音频……</string>
+    <string name="soundHintContent">点击播放录音</string>
+
+    <string name="date">日期：</string>
+    <string name="my_time">时间：</string>
+    <string name="ok">确定</string>
+    <string name="colon">:</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="blank" />
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+</resources>
